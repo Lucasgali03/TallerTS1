@@ -18,32 +18,4 @@ export class Serie{
         this.canal = canal1;
 
     }
-    
-    getId(): number{
-        return this.id;
-    }
-
-    getName(): string{
-        return this.nombre;
-    }
-    
-    getCanal(): string {
-        return this.canal;
-    }
-    
-    getTemporadas(): number {
-        return this.temporadas;
-    }
-    
-    getDesc(): string {
-        return this.desc;
-    }
-    
-    getLink(): string {
-        return this.link;
-    }
-    
-    getImg(): string {
-        return this.img;
-    }
 }
